@@ -34,7 +34,7 @@ class ProductDetails extends React.Component {
                                     <a href=" " className="review-link m-r-lg-10"><i className="fa fa-pencil m-r-lg-5"></i>6 Review </a>
                                     <a href=" " className="review-link m-r-lg-10"><i className="fa fa-pencil m-r-lg-5"></i>Write a review</a>
                                     <p className="price p-t-lg-20 p-b-lg-10 f-30 f-bold color-red">${this.props.selectedProduct.price}</p>
-                                    <p className="price-old f-20 color1-5">$1,280.00</p>
+                                    <p className="price-old f-20 color1-5">1,280.00</p>
                                     <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate</p>
                                     <hr/>
                                     <p><b>Brand :</b>Boss</p>
