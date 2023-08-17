@@ -128,16 +128,7 @@ class SearchBarHome extends Component {
                               Model
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenu4">
-                              {/* <li>Versa</li>
-                              <li>Cruze</li>
-                              <li>Malibu</li>
-                              <li>Civic</li>
-                              <li>Genesis</li>
-                              <li>Pilot</li>
-                              <li>Optima</li>
-                              <li>CX-5</li>
-                              <li>3 Serie</li>
-                              <li>Atima</li> */}
+                 
                             </ul>
                           </div>
                         </div>

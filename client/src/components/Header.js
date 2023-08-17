@@ -14,7 +14,7 @@ class Header extends  Component{
                     <div className="col-sm-6 col-md-6 col-lg-6 hidden-xs">
                         <p className="f-14">
                         <i className="fa fa-map-marker m-r-lg-5" />
-                        <strong>AUTOSHOP</strong> - 123 HOLDING, BUSAN, KOREA
+                        <strong>SL Cars</strong> - 103 NAGAHAWATTE ROAD, MAHARAGAMA
                         </p>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6">
@@ -50,17 +50,11 @@ class Header extends  Component{
                 <div className="container">
                     <div className="row">
                     <div className="col-md-3 col-lg-3">
-                        <a className="logo">
-                        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" />
-                        </a>
+                    
                     </div>
                     <div className="col-md-9 col-lg-9">
                         <div className="hotline">
-                        <span className="m-r-lg-10">Need support? Call us:</span>
-                        <a href="tel:01686813774">
-                            <i className="fa fa-phone" />0123-456-789
-                        </a>
-                        </div>
+                       </div>
                         <div className="clearfix" />
     
                         <div className="main-menu">
@@ -92,7 +86,7 @@ class Header extends  Component{
                                     </li>
                                     <li className="dropdown" onClick={()=>this.props.turnOffHomefilter()}> 
                                         <Link to={"/cars"} className="dropdown-toggle">
-                                        CARS LISTING
+                                        CARS 
                                         </Link>
                                     </li>
                                     <li className="dropdown">
@@ -110,24 +104,7 @@ class Header extends  Component{
                             </div>
                             </nav>
     
-                            <div className="search-box">
-                            <i className="fa fa-search" />
-                            <form>
-                                <input
-                                type="text"
-                                name="search-txt"
-                                placeholder="Search..."
-                                className="search-txt form-item"
-                                />
-                                <button
-                                type="submit"
-                                name="submit"
-                                className="search-btn btn-1"
-                                >
-                                <i className="fa fa-search" />
-                                </button>
-                            </form>
-                            </div>
+      
                         </div>
                         </div>
                     </div>

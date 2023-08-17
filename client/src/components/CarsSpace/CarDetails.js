@@ -20,7 +20,7 @@ class CarDetails extends React.Component {
 								<div className="col-lg-6">
 									<ul className="ht-breadcrumb pull-left">
 									<li className="home-act"><a><i className="fa fa-home"></i></a></li>
-									<li className="home-act"><Link to={"/cars"}>Cars</Link></li>
+									<li className="home-act"><Link to={"/cars"}>cars</Link></li>
 									
 									<li className="active">{name}</li>
 									</ul>
@@ -207,7 +207,7 @@ class CarDetails extends React.Component {
 											</a>	
 											<div className="product-caption">
 												<h4 className="product-name">
-													<a href="">HYUNDAI ELANTRA 2016 NEW MODEL / <b>New</b></a><span className="f-18"> $201,000</span>
+													<a href="">HYUNDAI ELANTRA 2016 NEW MODEL / <b>Used</b></a><span className="f-18"> Rs201,000</span>
 												</h4>
 											</div>
 											<ul className="absolute-caption">

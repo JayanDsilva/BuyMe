@@ -24,7 +24,7 @@ class CarsContainer extends Component {
             model: '',
             year: '',
             transition: '',
-            priceRange: '$60,000 - $130,000'
+            priceRange: 'Rs60,000 - Rs130,000'
         };
         this.setCarCondition = this.setCarCondition.bind(this);
         this.setCarBody = this.setCarBody.bind(this);
@@ -33,6 +33,7 @@ class CarsContainer extends Component {
         this.setCarTransition = this.setCarTransition.bind(this);
         this.renderCars = this.renderCars.bind(this);
     }
+
 
     buttonSearchClicked() {
 
@@ -85,7 +86,7 @@ class CarsContainer extends Component {
     viewAllCars(){
         this.setState({buttonSearchClicked : false});
         this.setState({fetchedCars : {}});
-        this.setState({priceRange: '$60,000 - $130,000'});
+       
         if(!this.state.buttonSearchClicked)this.props.turnOffHomefilter();
     }
 

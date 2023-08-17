@@ -12,7 +12,7 @@ class Home extends Component{
             <div className="wrap-body-inner">
                 <div className="product product-grid product-grid-2 car m-t-lg-90 p-t-sm-35 m-b-lg-20">
                     <div className="heading">
-                        <h3>RECENT CARS</h3>
+                    
                     </div>
                     <div className="row">
                         <div
@@ -30,16 +30,16 @@ class Home extends Component{
                             <div className="product-item hover-img">
                             <a   className="product-img">
                                 <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-2.jpg`}
+                                src={`${process.env.PUBLIC_URL}/images/harrier.jpg`}
                                 alt=""
                                 />
                             </a>
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    HYUNDAI ELANTRA 2016 NEW MODEL / <b>new</b>
+                                    Harrier / <b>new</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> $10000000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -59,16 +59,16 @@ class Home extends Component{
                             <div className="product-item hover-img">
                             <a   className="product-img">
                                 <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-1.jpg`}
+                                src={`${process.env.PUBLIC_URL}/images/mg2.png`}
                                 alt=""
                                 />
                             </a>
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    KIA SOUL, BRAND NEW MODEL 2016 > <b>used</b>
+                                    MG / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> $3001000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -88,16 +88,16 @@ class Home extends Component{
                             <div className="product-item hover-img">
                             <a   className="product-img">
                                 <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-10.jpg`}
+                                src={`${process.env.PUBLIC_URL}/images/ford.jpg`}
                                 alt=""
                                 />
                             </a>
                             <div className="product-caption">
                                 <h4 className="product-name">
                                 <a  >
-                                    FORD MUSTANG 2016 TURBO / <b>used</b>
+                                    FORD MUSTANG GTR / <b>used</b>
                                 </a>
-                                <span className="f-18"> $201,000</span>
+                                <span className="f-18"> $1001000</span>
                                 </h4>
                             </div>
                             <ul className="absolute-caption">
@@ -113,80 +113,11 @@ class Home extends Component{
                             </ul>
                             </div>
                         </div>
+                        
+                        
                         <div className="col-lg-12">
                             <div className="product-item hover-img">
-                            <a   className="product-img">
-                                <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-4.jpg`}
-                                alt=""
-                                />
-                            </a>
-                            <div className="product-caption">
-                                <h4 className="product-name">
-                                <a  >
-                                    HYUNDAI VELOSTER TURBO SPORT / <b>used</b>
-                                </a>
-                                <span className="f-18"> $201,000</span>
-                                </h4>
-                            </div>
-                            <ul className="absolute-caption">
-                                <li>
-                                <i className="fa fa-clock-o" />2016
-                                </li>
-                                <li>
-                                <i className="fa fa-car" />Auto
-                                </li>
-                                <li>
-                                <i className="fa fa-road" />Gas
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-12">
-                            <div className="product-item hover-img">
-                            <a   className="product-img">
-                                <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-10.jpg`}
-                                alt=""
-                                />
-                            </a>
-                            <div className="product-caption">
-                                <h4 className="product-name">
-                                <a  >
-                                    HYUNDAI ELANTRA 2016 NEW MODEL / <b>used</b>
-                                </a>
-                                <span className="f-18"> $201,000</span>
-                                </h4>
-                            </div>
-                            <ul className="absolute-caption">
-                                <li>
-                                <i className="fa fa-clock-o" />2016
-                                </li>
-                                <li>
-                                <i className="fa fa-car" />Auto
-                                </li>
-                                <li>
-                                <i className="fa fa-road" />Gas
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-12">
-                            <div className="product-item hover-img">
-                            <a   className="product-img">
-                                <img
-                                src={`${process.env.PUBLIC_URL}/images/b-img-11.jpg`}
-                                alt=""
-                                />
-                            </a>
-                            <div className="product-caption">
-                                <h4 className="product-name">
-                                <a  >
-                                    BMW , NAVI, LEATHER, ABS / <b>used</b>
-                                </a>
-                                <span className="f-18"> $201,000</span>
-                                </h4>
-                            </div>
+                            
                             <ul className="absolute-caption">
                                 <li>
                                 <i className="fa fa-clock-o" />2016

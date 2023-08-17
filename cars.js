@@ -72,5 +72,6 @@ module.exports = [
         year:'2015',
         transition: 'semi_automatic'
     },
+
 ];
 
